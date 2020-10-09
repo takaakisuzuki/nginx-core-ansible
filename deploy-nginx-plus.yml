@@ -7,5 +7,5 @@
       vars:
         nginx_type: plus
         nginx_license:
-          certificate: /var/lib/awx/projects/nginx-repo.yml
-          key: /var/lib/awx/projects/nginx-repo.yml
+          certificate: /var/lib/awx/projects/nginx-repo.crt
+          key: /var/lib/awx/projects/nginx-repo.key
