@@ -1,0 +1,9 @@
+---
+- hosts: all
+  gather_facts: no
+  tasks:
+   - name: "dump variables hostvars"
+     debug: var=hostvars[inventory_hostname] 
+
+   - name: "dump variables vars"
+     debug: var=vars
