@@ -1,0 +1,11 @@
+---
+- hosts: all
+  collections:
+    - nginxinc.nginx_core
+  roles:
+    - role: nginx
+      vars:
+        nginx_type: plus
+        nginx_license:
+          certificate: /var/lib/awx/projects/nginx-repo.yml
+          key: /var/lib/awx/projects/nginx-repo.yml
