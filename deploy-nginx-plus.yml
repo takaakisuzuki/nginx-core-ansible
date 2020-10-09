@@ -7,5 +7,5 @@
       vars:
         nginx_type: plus
         nginx_license:
-          certificate: "{{playbook_dir}}/nginx-repo.crt"
-          key: "{{playbook_dir}}/nginx-repo.key"
+          certificate: "/var/lib/awx/venv/ansible/nginx-repo.crt"
+          key: "/var/lib/awx/venv/ansible/nginx-repo.key"
