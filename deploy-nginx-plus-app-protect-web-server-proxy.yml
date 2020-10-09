@@ -7,8 +7,8 @@
       vars:
         nginx_type: plus
         nginx_license:
-          certificate: /var/lib/awx/projects/nginx-repo.crt 
-          key: /var/lib/awx/projects/nginx-repo.key
+          certificate: /var/lib/awx/venv/ansible/nginx-repo.crt 
+          key: /var/lib/awx/venv/ansible/nginx-repo.key
         nginx_remove_license: false
     - role: nginx_app_protect
       vars:
